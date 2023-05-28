@@ -68,4 +68,4 @@ $ streamlit run ModelFLOWs_web.py
 Check out the *Tutorial* folder for a more in depth tutorial explaining how to install, run and use ModelFLOWs-app. This folder also contains advanced tutorials explaining how each module of the application works.
 
 ## More info
-For more information please visit ModelFLOWs-app's official website.[ModelFLOWs-app's official website](https://modelflows.github.io/modelflowsapp/). Ypu can also find us on [LinkedIn](https://www.linkedin.com/in/company/modelflows/)
+For more information please visit ModelFLOWs-app's official website.[ModelFLOWs-app's official website](https://modelflows.github.io/modelflowsapp/). You can also find us on [LinkedIn](https://www.linkedin.com/in/company/modelflows/)
