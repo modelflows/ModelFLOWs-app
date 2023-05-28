@@ -46,7 +46,7 @@ $ sudo pip install -r Requirements.txt
 #### Option 2. Install each library individually:
 ```
 $ cd ../Desktop
-$ sudo pip install **library***
+$ sudo pip install **insert library name**
 ```
 
 ## Run
