@@ -39,7 +39,7 @@ There are two ways to install all required libraries:
 
 #### Option 1. Install all libraries:
 ```
-$ cd ../v0.1_ModelFLOWs-app_desktop
+$ cd ../v0.1_ModelFLOWs-app
 $ sudo pip install -r Requirements.txt
 ```
 
@@ -54,13 +54,13 @@ To open ModelFLOWs-app, run the following command:
 
 #### For the desktop version:
 ```
-$ cd ../v0.1_ModelFLOWs-app_desktop
+$ cd ../v0.1_ModelFLOWs-app
 $ python ModelFLOWs_app.py
 ```
 
 #### For the web-browser demo:
 ```
-$ cd ../v0.1_ModelFLOWs-app_web-browser
+$ cd ../v0.1_ModelFLOWs-app_web
 $ streamlit run ModelFLOWs_web.py
 ```
 
