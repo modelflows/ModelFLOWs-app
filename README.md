@@ -39,7 +39,7 @@ There are two ways to install all required libraries:
 
 #### Option 1. Install all libraries:
 ```
-$ cd ../v0.1_ModelFLOWs-app
+$ cd ../v0.1_ModelFLOWs_app
 $ sudo pip install -r Requirements.txt
 ```
 
