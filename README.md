@@ -59,7 +59,7 @@ $ python ModelFLOWs_app.py
 ```
 
 #### For the web-browser demo:
-**IMPORTANT** Before running, please read the instructions that appear in the *web-browser-version* branch to download the databases used by this version. If the databases aren't downloaded, the web-browser version will not work.
+**IMPORTANT** Before running this version, please read the instructions that appear in the *web-browser-version* branch to download the databases used by the ModelFLOWs-app web-browser version. If the databases aren't downloaded correctly, the web-browser version will not work.
 ```
 $ cd ../v0.1_ModelFLOWs_web
 $ streamlit run ModelFLOWs_web.py
