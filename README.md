@@ -59,6 +59,7 @@ $ python ModelFLOWs_app.py
 ```
 
 #### For the web-browser demo:
+**IMPORTANT** Before running, please read the instructions that appear in the *web-browser-version* branch
 ```
 $ cd ../v0.1_ModelFLOWs_web
 $ streamlit run ModelFLOWs_web.py
