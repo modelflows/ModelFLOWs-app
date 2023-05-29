@@ -1,5 +1,5 @@
 ### IMPORTANT
-Download the databases required to use the web-browser version from the following [Google Drive Folder](https://drive.google.com/drive/folders/1v-BU5kT8arbDrgGndZir-Et0K4MIrDs1).
+Download the databases required to use the web-browser version from the following [Google Drive Folder](https://drive.google.com/drive/folders/1v-BU5kT8arbDrgGndZir-Et0K4MIrDs1). Once the download completes, replace the databases in the downloaded *v0.1_ModelFLOWs_web* folder with these database files. 
 
 **Alternative**
 Download the databases manually after downloading the web-browser version:
