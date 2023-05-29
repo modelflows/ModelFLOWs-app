@@ -54,13 +54,13 @@ To open ModelFLOWs-app, run the following command:
 
 #### For the desktop version:
 ```
-$ cd ../v0.1_ModelFLOWs-app
+$ cd ../v0.1_ModelFLOWs_app
 $ python ModelFLOWs_app.py
 ```
 
 #### For the web-browser demo:
 ```
-$ cd ../v0.1_ModelFLOWs-app_web
+$ cd ../v0.1_ModelFLOWs_web
 $ streamlit run ModelFLOWs_web.py
 ```
 
