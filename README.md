@@ -17,8 +17,6 @@ ModelFLOWs-app, an open source Software for data post-processing, patterns ident
 There are currently two versions available:
 * ModelFLOWs-app desktop version
 * ModelFLOWs-app web-browser version (demo)
-
-The main files are also provided.
 	
 ## Requirements
 ModelFLOWs-app has been developed with:
