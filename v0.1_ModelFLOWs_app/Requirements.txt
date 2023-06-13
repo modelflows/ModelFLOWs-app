@@ -1,8 +1,0 @@
-tensorflow==2.10
-scikit-learn==1.2
-ffmpeg
-hdf5storage
-numba==0.56.4
-scipy==1.9.3
-keras-tuner
-protobuf==3.20
