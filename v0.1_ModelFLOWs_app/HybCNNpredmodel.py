@@ -174,7 +174,7 @@ def hybCNN():
         else:
             print('\tError: Select yes or no (y/n)\n')
 
-    if hyper == 'yes':
+    if hyper == 'Yes':
         print('''
     Available hyperparameter tuners:
     1) RandomSearch: All the hyperparameter combinations are chosen randomly.
