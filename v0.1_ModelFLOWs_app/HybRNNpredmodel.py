@@ -351,6 +351,7 @@ Available hyperparameter tuners:
                 lf = 'mse'
                 break
             elif lf.strip().lower() == 'custom_loss':
+                lf = custom_loss
                 break
             elif lf.strip().lower() == 'mae':
                 lf = 'mae'
@@ -371,9 +372,6 @@ Loss function: {lf}
 
     print('-----------------------------')
     print('Outputs: \n')
-
-    if lf.strip().lower() == 'custom_loss':
-        lf = custom_loss
         
     filen = input('Enter folder name to save the outputs or continue with default folder name: ')
     if not filen:
