@@ -289,9 +289,25 @@ Nearest interpolation
             plt.show()
 
     if Truth.strip().lower() in ['y', 'yes']:
-        Tensor0 = Tensor[:A_s.shape[0], :A_s.shape[1], :A_s.shape[2], :A_s.shape[3]].copy()
-        RRMSE = np.linalg.norm(np.reshape(Tensor0 - A_s ,newshape=(np.size(Tensor0),1)),ord=2)/np.linalg.norm(np.reshape(Tensor0,newshape=(np.size(Tensor0),1)))
-        print(f'\nError made during reconstruction: {np.round(RRMSE*100, 3)}%')
+        if Tensor.ndim == 2:
+            Tensor0 = Tensor[:A_s.shape[0], :A_s.shape[1]].copy()
+            RRMSE = np.linalg.norm(np.reshape(Tensor0 - A_s ,newshape=(np.size(Tensor0),1)),ord=2)/np.linalg.norm(np.reshape(Tensor0,newshape=(np.size(Tensor0),1)))
+            print(f'\nError made during reconstruction: {np.round(RRMSE*100, 3)}%')
+
+        if Tensor.ndim == 3:
+            Tensor0 = Tensor[:A_s.shape[0], :A_s.shape[1], :A_s.shape[2]].copy()
+            RRMSE = np.linalg.norm(np.reshape(Tensor0 - A_s ,newshape=(np.size(Tensor0),1)),ord=2)/np.linalg.norm(np.reshape(Tensor0,newshape=(np.size(Tensor0),1)))
+            print(f'\nError made during reconstruction: {np.round(RRMSE*100, 3)}%')
+
+        if Tensor.ndim == 4:
+            Tensor0 = Tensor[:A_s.shape[0], :A_s.shape[1], :A_s.shape[2], :A_s.shape[3]].copy()
+            RRMSE = np.linalg.norm(np.reshape(Tensor0 - A_s ,newshape=(np.size(Tensor0),1)),ord=2)/np.linalg.norm(np.reshape(Tensor0,newshape=(np.size(Tensor0),1)))
+            print(f'\nError made during reconstruction: {np.round(RRMSE*100, 3)}%')
+
+        if Tensor.ndim == 5:
+            Tensor0 = Tensor[:A_s.shape[0], :A_s.shape[1], :A_s.shape[2], :A_s.shape[3], :A_s.shape[4]].copy()
+            RRMSE = np.linalg.norm(np.reshape(Tensor0 - A_s ,newshape=(np.size(Tensor0),1)),ord=2)/np.linalg.norm(np.reshape(Tensor0,newshape=(np.size(Tensor0),1)))
+            print(f'\nError made during reconstruction: {np.round(RRMSE*100, 3)}%')
 
     if output_2 == 'yes':
         if method == 'hosvd':
